@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+    <h2>Calculator Created By Abdulmalik</h2>
+    <!-- Thre Container For Calculator  -->
+    <div class="container">
+        <!-- The Previous Number That Make Math On It  -->
+        <div class="previousNum"></div>
+        <!-- The Current Numbers That Add Math On It   -->
+        <input type="text" placeholder="0">
+        <!-- The Numbers And Operations  -->
+        <div class="numbers">
+            <span data-type="deleteAll" style="grid-column: 1 / 3; border-radius: 20px;">AC</span>
+            <span data-type="deleteLast">DEL</span>
+            <span data-type="op">/</span>
+            <span data-type="num">7</span>
+            <span data-type="num">8</span>
+            <span data-type="num">9</span>
+            <span data-type="op">X</span>
+            <span data-type="num">5</span>
+            <span data-type="num">4</span>
+            <span data-type="num">6</span>
+            <span data-type="op">-</span>
+            <span data-type="num">1</span>
+            <span data-type="num">2</span>
+            <span data-type="num">3</span>
+            <span data-type="op">+</span>
+            <span data-type="num" style="grid-column: 1 / 3; border-radius: 20px;">0</span>
+            <span data-type="dot">.</span>
+            <span data-type="equal">=</span>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
